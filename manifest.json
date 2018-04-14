@@ -20,7 +20,10 @@
         {
             "matches": ["https://maritime.id.informa.com/*"],
             "js": ["js/login.js"]
-        }
+        },{
+			"matches": ["https://nextgen.lloydslistintelligence.com/vessels/?term=*"],
+            "js": ["js/findvesselid.js"]
+		}
     ],
 	"permissions": [
 		"tabs",
